@@ -11,4 +11,4 @@ app.get('/', jsonParser, function (req, res) {
     res.send("Hello Would!");
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 4000);
